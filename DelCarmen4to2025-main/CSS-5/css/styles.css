@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: whitesmoke;
+}
+
+.header {
+  width: 100vw;
+  height: 10vh;
+  background-color: cornflowerblue;
+}
+
+.main-container {
+  width: 100vw;
+}
+
+.gallery {
+  background-color: blueviolet;
+}
+
+.welcome {
+  background-color: violet;
+  min-height: 80vh;
+}
+
+.card {
+  width: 150px;
+  height: 150px;
+  background-image: url(../img/imagen1.webp);
+  background-size: cover;
+}

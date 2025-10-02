@@ -1,0 +1,28 @@
+body {
+  font-family: sans-serif;
+  background: #f0f0f0;
+  padding: 20px;
+  margin: 0;
+}
+
+.flex-container {
+  border: 2px dashed #aaa;
+  background-color: white;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 50px;
+  padding: 20px;
+}
+
+.caja {
+  background-color: tomato;
+  color: white;
+  width: 100px;
+  height: 100px;
+  font-size: 2em;
+  border-radius: 10px;
+}
